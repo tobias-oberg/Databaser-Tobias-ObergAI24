@@ -5,7 +5,7 @@ Jag skapar en USER som endast har SELECT-rättigheter. Detta förhindrar att USE
 För mer dokumentering om andra funktionaliteter se SQL-kod. 
 
 
-<!-- CREATE LOGIN bokhandlare1 WITH PASSWORD = 'ITHS';
+CREATE LOGIN bokhandlare1 WITH PASSWORD = 'ITHS';
 
 -- Använd rätt databas
 USE Bokhandel;
@@ -14,5 +14,5 @@ USE Bokhandel;
 CREATE USER bokhandlare1 FOR LOGIN bokhandlare1;
 
 -- Tilldela endast SELECT-rättigheter
-GRANT SELECT ON SCHEMA::dbo TO bokhandlare1; -->
+GRANT SELECT ON SCHEMA::dbo TO bokhandlare1;
 
